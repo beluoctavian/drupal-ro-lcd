@@ -1,9 +1,9 @@
 uuid: 098fa545-8be1-49c3-bbdd-c0d1da281dd4
-langcode: en
+langcode: ro
 status: true
 dependencies: {  }
 id: ro
-label: Romanian
+label: Română
 direction: ltr
 weight: -10
 locked: false
