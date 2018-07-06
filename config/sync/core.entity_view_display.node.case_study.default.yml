@@ -91,3 +91,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_case_study_logo: true
+  langcode: true

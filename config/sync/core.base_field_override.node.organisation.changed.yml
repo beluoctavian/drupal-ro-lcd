@@ -1,0 +1,18 @@
+uuid: 64a5cc1d-d7eb-416c-99f3-c023cd114033
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.organisation
+id: node.organisation.changed
+field_name: changed
+entity_type: node
+bundle: organisation
+label: Schimbat
+description: 'Momentul în care nodul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

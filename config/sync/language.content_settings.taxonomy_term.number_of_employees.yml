@@ -1,0 +1,18 @@
+uuid: cdf909e7-5a2e-4dc7-9677-405871b67661
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.number_of_employees
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.number_of_employees
+target_entity_type_id: taxonomy_term
+target_bundle: number_of_employees
+default_langcode: site_default
+language_alterable: false

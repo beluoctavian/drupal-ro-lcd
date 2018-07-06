@@ -93,3 +93,4 @@ content:
 hidden:
   field_organisation_admins: true
   field_organisation_public_list: true
+  langcode: true

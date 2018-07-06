@@ -1,0 +1,18 @@
+uuid: 8ef6c7b3-5a26-4e13-804f-72080f447fb7
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.number_of_employees
+id: taxonomy_term.number_of_employees.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: number_of_employees
+label: Schimbat
+description: 'Momentul în care termenul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

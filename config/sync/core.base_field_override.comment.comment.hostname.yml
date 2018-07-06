@@ -1,0 +1,18 @@
+uuid: e21964e5-c500-4863-81fa-f7bab0b778ec
+langcode: ro
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.hostname
+field_name: hostname
+entity_type: comment
+bundle: comment
+label: Hostname
+description: 'Numele de gazdă al autorului comentariului.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 0a558746-85f1-42b1-b498-56a5b1da0b3b
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.case_study
+id: node.case_study.changed
+field_name: changed
+entity_type: node
+bundle: case_study
+label: Schimbat
+description: 'Momentul în care nodul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

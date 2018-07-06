@@ -1,0 +1,20 @@
+uuid: f4b6b5cb-59ec-458e-ab18-6c28fb7c1137
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_services
+  module:
+    - path
+id: taxonomy_term.organisation_services.path
+field_name: path
+entity_type: taxonomy_term
+bundle: organisation_services
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

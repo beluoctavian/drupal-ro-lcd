@@ -1,0 +1,18 @@
+uuid: 9de80152-49cd-48ef-8904-90e1e0610685
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: tags
+label: Schimbat
+description: 'Momentul în care termenul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

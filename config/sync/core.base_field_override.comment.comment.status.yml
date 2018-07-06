@@ -1,0 +1,22 @@
+uuid: cc467d32-d162-4d2c-8acc-98909ca957fd
+langcode: ro
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.status
+field_name: status
+entity_type: comment
+bundle: comment
+label: Publicat
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
+settings:
+  on_label: Pornit
+  off_label: Oprit
+field_type: boolean

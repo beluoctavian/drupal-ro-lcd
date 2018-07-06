@@ -1,0 +1,18 @@
+uuid: 2643088e-5098-44ad-8d59-809d154987b4
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_best_practices
+id: taxonomy_term.organisation_best_practices.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: organisation_best_practices
+label: Schimbat
+description: 'Momentul în care termenul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: 40a05c81-d206-45e3-be68-f3d5b481b4ec
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.event
+id: node.event.title
+field_name: title
+entity_type: node
+bundle: event
+label: Titlu
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

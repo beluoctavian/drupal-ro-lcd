@@ -1,0 +1,18 @@
+uuid: a8619704-4b21-4dc5-b942-09d1a172d1a1
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.created
+field_name: created
+entity_type: node
+bundle: page
+label: 'Creat la'
+description: 'Momentul în care nodul a fost creat.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

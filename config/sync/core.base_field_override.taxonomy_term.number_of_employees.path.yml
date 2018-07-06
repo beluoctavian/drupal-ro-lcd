@@ -1,0 +1,20 @@
+uuid: ed81ede5-4e80-4795-8468-6f2eab138242
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.number_of_employees
+  module:
+    - path
+id: taxonomy_term.number_of_employees.path
+field_name: path
+entity_type: taxonomy_term
+bundle: number_of_employees
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

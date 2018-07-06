@@ -1,0 +1,22 @@
+uuid: 626bb004-da61-4bf1-bc60-a6f8f3cf3b1b
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.case_study
+id: node.case_study.promote
+field_name: promote
+entity_type: node
+bundle: case_study
+label: 'Promovat pe prima pagină'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Pornit
+  off_label: Oprit
+field_type: boolean

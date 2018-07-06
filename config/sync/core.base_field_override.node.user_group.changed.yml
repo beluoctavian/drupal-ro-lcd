@@ -1,0 +1,18 @@
+uuid: 3ea175c5-6f99-4092-9759-b89547b94ec6
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.user_group
+id: node.user_group.changed
+field_name: changed
+entity_type: node
+bundle: user_group
+label: Schimbat
+description: 'Momentul în care nodul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

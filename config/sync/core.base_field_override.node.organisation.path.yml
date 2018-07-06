@@ -1,0 +1,20 @@
+uuid: 4c0b08ee-28ae-4a06-8346-4fdc8c9d4cd1
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.organisation
+  module:
+    - path
+id: node.organisation.path
+field_name: path
+entity_type: node
+bundle: organisation
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

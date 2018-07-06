@@ -1,0 +1,20 @@
+uuid: 6e648058-8ca9-44d7-94e9-9986b153882c
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_best_practices
+  module:
+    - text
+id: taxonomy_term.organisation_best_practices.description
+field_name: description
+entity_type: taxonomy_term
+bundle: organisation_best_practices
+label: Descriere
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

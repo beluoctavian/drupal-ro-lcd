@@ -30,3 +30,4 @@ hidden:
   field_user_group_location: true
   field_user_group_organizers: true
   field_user_group_sponsors: true
+  langcode: true

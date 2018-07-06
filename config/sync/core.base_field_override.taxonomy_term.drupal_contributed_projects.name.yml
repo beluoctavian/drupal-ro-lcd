@@ -1,0 +1,18 @@
+uuid: 9c928ad2-304b-47d8-a41a-d14e1df9ba22
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.drupal_contributed_projects
+id: taxonomy_term.drupal_contributed_projects.name
+field_name: name
+entity_type: taxonomy_term
+bundle: drupal_contributed_projects
+label: Nume
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

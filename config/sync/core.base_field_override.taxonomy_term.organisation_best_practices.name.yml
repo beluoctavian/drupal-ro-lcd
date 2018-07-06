@@ -1,0 +1,18 @@
+uuid: e02382ff-6f65-4015-bd3b-d18300939288
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_best_practices
+id: taxonomy_term.organisation_best_practices.name
+field_name: name
+entity_type: taxonomy_term
+bundle: organisation_best_practices
+label: Nume
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

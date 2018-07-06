@@ -1,0 +1,22 @@
+uuid: fc48c144-ab4b-4e48-9d88-d245ade003c9
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.user_group
+id: node.user_group.status
+field_name: status
+entity_type: node
+bundle: user_group
+label: Publicat
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Pornit
+  off_label: Oprit
+field_type: boolean

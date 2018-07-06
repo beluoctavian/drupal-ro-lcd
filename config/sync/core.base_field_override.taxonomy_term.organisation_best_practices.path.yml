@@ -1,0 +1,20 @@
+uuid: 6ca7a25b-faf8-4735-b5a6-599cd865e78f
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_best_practices
+  module:
+    - path
+id: taxonomy_term.organisation_best_practices.path
+field_name: path
+entity_type: taxonomy_term
+bundle: organisation_best_practices
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

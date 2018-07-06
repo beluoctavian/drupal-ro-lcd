@@ -54,3 +54,4 @@ hidden:
   field_case_study_screenshots: true
   field_case_study_team_members: true
   field_case_study_website: true
+  langcode: true

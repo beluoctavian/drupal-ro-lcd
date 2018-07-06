@@ -1,0 +1,18 @@
+uuid: 1713463f-1f7a-48ec-b9dc-c256d7b2b982
+langcode: ro
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.created
+field_name: created
+entity_type: comment
+bundle: comment
+label: Creat
+description: 'Momentul în care a fost creat comentariul.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

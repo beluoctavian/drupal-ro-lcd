@@ -1,0 +1,18 @@
+uuid: 8d771ec2-34e2-4e7c-9340-8201dc867b73
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.title
+field_name: title
+entity_type: node
+bundle: article
+label: Titlu
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

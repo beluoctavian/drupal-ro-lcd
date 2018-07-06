@@ -1,0 +1,18 @@
+uuid: 891ca646-7b95-4a51-aa41-4c7b26a0aa1d
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.case_study
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.case_study
+target_entity_type_id: node
+target_bundle: case_study
+default_langcode: site_default
+language_alterable: false

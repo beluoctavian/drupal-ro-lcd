@@ -1,0 +1,20 @@
+uuid: f9306a4b-b399-4eb3-b1f7-2d3f5afeba53
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - path
+id: node.article.path
+field_name: path
+entity_type: node
+bundle: article
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

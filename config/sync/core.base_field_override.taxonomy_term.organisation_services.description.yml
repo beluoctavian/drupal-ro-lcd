@@ -1,0 +1,20 @@
+uuid: ddced9d4-39a6-4d8c-9831-5144314a09cb
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_services
+  module:
+    - text
+id: taxonomy_term.organisation_services.description
+field_name: description
+entity_type: taxonomy_term
+bundle: organisation_services
+label: Descriere
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

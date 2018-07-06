@@ -1,0 +1,18 @@
+uuid: 3068addd-9418-491e-abae-f7d525e07996
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.drupal_contributed_projects
+id: taxonomy_term.drupal_contributed_projects.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: drupal_contributed_projects
+label: Schimbat
+description: 'Momentul în care termenul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

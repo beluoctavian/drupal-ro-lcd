@@ -44,3 +44,4 @@ hidden:
   field_organisation_public_list: true
   field_organisation_services: true
   field_organisation_website: true
+  langcode: true

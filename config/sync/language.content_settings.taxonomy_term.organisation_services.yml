@@ -1,0 +1,18 @@
+uuid: 98effa0e-a927-430c-a219-8afd5ce0e5cf
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_services
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.organisation_services
+target_entity_type_id: taxonomy_term
+target_bundle: organisation_services
+default_langcode: site_default
+language_alterable: false

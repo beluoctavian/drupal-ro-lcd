@@ -1,0 +1,20 @@
+uuid: 6880f2e9-e219-47c8-b373-4f39a9bc3eba
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.drupal_contributed_projects
+  module:
+    - text
+id: taxonomy_term.drupal_contributed_projects.description
+field_name: description
+entity_type: taxonomy_term
+bundle: drupal_contributed_projects
+label: Descriere
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

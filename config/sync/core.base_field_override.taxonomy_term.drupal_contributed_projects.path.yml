@@ -1,0 +1,20 @@
+uuid: 4191fae8-0f42-4731-9cfa-37478285027c
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.drupal_contributed_projects
+  module:
+    - path
+id: taxonomy_term.drupal_contributed_projects.path
+field_name: path
+entity_type: taxonomy_term
+bundle: drupal_contributed_projects
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

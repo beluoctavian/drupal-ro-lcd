@@ -1,0 +1,18 @@
+uuid: 8cd42c57-7e75-4289-ae12-534a95276e63
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_services
+id: taxonomy_term.organisation_services.name
+field_name: name
+entity_type: taxonomy_term
+bundle: organisation_services
+label: Nume
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

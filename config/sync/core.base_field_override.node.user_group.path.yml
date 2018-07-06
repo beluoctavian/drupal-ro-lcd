@@ -1,0 +1,20 @@
+uuid: 19da3b70-dc2f-4226-ad19-f4f5da96b3e0
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.user_group
+  module:
+    - path
+id: node.user_group.path
+field_name: path
+entity_type: node
+bundle: user_group
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

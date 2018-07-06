@@ -1,0 +1,20 @@
+uuid: 60e3df85-1586-4c14-80de-ab6aa6b4f10e
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.number_of_employees
+  module:
+    - text
+id: taxonomy_term.number_of_employees.description
+field_name: description
+entity_type: taxonomy_term
+bundle: number_of_employees
+label: Descriere
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: 285d91d1-0d81-476b-94bf-073cbc430392
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisation_services
+id: taxonomy_term.organisation_services.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: organisation_services
+label: Schimbat
+description: 'Momentul în care termenul a fost editat ultima dată.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

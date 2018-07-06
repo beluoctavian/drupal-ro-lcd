@@ -1,0 +1,20 @@
+uuid: 49207266-7616-4b49-8a13-d88cbfdb03ad
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.case_study
+  module:
+    - path
+id: node.case_study.path
+field_name: path
+entity_type: node
+bundle: case_study
+label: 'Alias URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

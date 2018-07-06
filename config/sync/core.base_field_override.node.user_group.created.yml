@@ -1,0 +1,18 @@
+uuid: 419cafb0-3ea1-4f21-8318-5b226d64e8c5
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.user_group
+id: node.user_group.created
+field_name: created
+entity_type: node
+bundle: user_group
+label: 'Creat la'
+description: 'Momentul în care nodul a fost creat.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,22 @@
+uuid: d0a1825d-03a6-408b-bb9b-7d30905e8aa0
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.organisation
+id: node.organisation.status
+field_name: status
+entity_type: node
+bundle: organisation
+label: Publicat
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Pornit
+  off_label: Oprit
+field_type: boolean

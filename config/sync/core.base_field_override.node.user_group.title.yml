@@ -1,0 +1,18 @@
+uuid: 19050ea2-cb9b-487a-964a-ec089c94bac0
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.user_group
+id: node.user_group.title
+field_name: title
+entity_type: node
+bundle: user_group
+label: Titlu
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

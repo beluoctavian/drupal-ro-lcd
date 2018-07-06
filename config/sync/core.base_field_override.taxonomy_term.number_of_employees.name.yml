@@ -1,0 +1,18 @@
+uuid: 25d3aa02-ad2c-4b78-91ca-87ca4250f723
+langcode: ro
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.number_of_employees
+id: taxonomy_term.number_of_employees.name
+field_name: name
+entity_type: taxonomy_term
+bundle: number_of_employees
+label: Nume
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

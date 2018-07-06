@@ -1,0 +1,18 @@
+uuid: cbd5fa0b-d1a1-409b-8040-36d68dfcf8f9
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.case_study
+id: node.case_study.title
+field_name: title
+entity_type: node
+bundle: case_study
+label: Titlu
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -58,3 +58,4 @@ hidden:
   field_event_location: true
   field_event_organizers: true
   field_event_website: true
+  langcode: true
