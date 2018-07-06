@@ -9,6 +9,7 @@
 
 # Ignore sensitive information
 /web/sites/*/settings.local.php
+/salt.txt
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
