@@ -1,0 +1,14 @@
+uuid: 8070ba2a-94d7-4521-86ea-1fc7de2f4ec8
+langcode: ro
+status: true
+dependencies:
+  config:
+    - user.role.association_member
+  module:
+    - user
+id: user_remove_role_action.association_member
+label: 'Remove the Association member role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: association_member

@@ -1,0 +1,14 @@
+uuid: c6edc831-e87d-449f-b16a-bd15103164c6
+langcode: ro
+status: true
+dependencies:
+  config:
+    - user.role.association_member
+  module:
+    - user
+id: user_add_role_action.association_member
+label: 'Add the Association member role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: association_member

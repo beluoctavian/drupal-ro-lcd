@@ -1,0 +1,34 @@
+uuid: 03ac9e87-7a58-441c-86d2-2f46c37dee3f
+langcode: ro
+status: true
+dependencies: {  }
+id: association_member
+label: 'Membru al asociației'
+weight: 3
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create article content'
+  - 'create case_study content'
+  - 'create content translations'
+  - 'create event content'
+  - 'delete content translations'
+  - 'delete own article content'
+  - 'delete own case_study content'
+  - 'delete own event content'
+  - 'edit own article content'
+  - 'edit own case_study content'
+  - 'edit own comments'
+  - 'edit own event content'
+  - 'post comments'
+  - 'search content'
+  - 'update content translations'
+  - 'use editorial transition create_new_draft'
+  - 'use text format basic_html'
+  - 'view own unpublished content'

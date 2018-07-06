@@ -1,0 +1,72 @@
+uuid: 80eff46b-d54b-4de6-9a76-651b3db1bd9e
+langcode: ro
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.case_study
+    - node.type.event
+    - node.type.page
+  module:
+    - content_moderation
+_core:
+  default_config_hash: T_JxNjYlfoRBi7Bj1zs5Xv9xv1btuBkKp5C1tNrjMhI
+id: editorial
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Arhivat
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Proiect
+      published: false
+      default_revision: false
+      weight: -5
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 0
+  transitions:
+    archive:
+      label: Archive
+      from:
+        - published
+      to: archived
+      weight: 2
+    archived_draft:
+      label: 'Reveniți la schiță'
+      from:
+        - archived
+      to: draft
+      weight: 3
+    archived_published:
+      label: Restaurează
+      from:
+        - archived
+      to: published
+      weight: 4
+    create_new_draft:
+      label: 'Creați o ciornă nouă'
+      to: draft
+      weight: 0
+      from:
+        - draft
+        - published
+    publish:
+      label: Publică
+      to: published
+      weight: 1
+      from:
+        - draft
+        - published
+  entity_types:
+    node:
+      - article
+      - case_study
+      - event
+      - page
