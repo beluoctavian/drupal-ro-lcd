@@ -1,0 +1,21 @@
+uuid: 3ad722e1-d055-4af0-9e83-2e9bfedaaff1
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: ftZ5LaBy30nGwErWLDRK4h1fHNmgSUn1RvlD0Codk6E
+id: node.field_case_study_website
+field_name: field_case_study_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

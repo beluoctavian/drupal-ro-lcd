@@ -1,0 +1,32 @@
+uuid: 5bc5d6d9-f073-48df-8f5e-c3037142809f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+_core:
+  default_config_hash: WkL7IMYR09ksIvcw7mm9Ck4EWWeC3L9yDw7E4cwG4jg
+id: views_block__events_block_1
+theme: bartik
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:events-block_1'
+settings:
+  id: 'views_block:events-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /events
+    negate: false
+    context_mapping: {  }

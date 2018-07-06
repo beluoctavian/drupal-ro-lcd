@@ -1,0 +1,23 @@
+uuid: 1c64b209-0bf6-4dec-a282-cc30c7ed1e40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organisation_public_list
+    - node.type.organisation
+_core:
+  default_config_hash: lMZcdO2k0enRMfeLqrlAXiR3TTb54GO7HI1pSKoJ9p0
+id: node.organisation.field_organisation_public_list
+field_name: field_organisation_public_list
+entity_type: node
+bundle: organisation
+label: 'Public listing'
+description: 'Allow organisation to be displayed on public page across the website'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Show
+  off_label: Hide
+field_type: boolean

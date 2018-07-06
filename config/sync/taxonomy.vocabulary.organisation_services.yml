@@ -1,0 +1,11 @@
+uuid: 98d5a9d3-7ce4-4921-ae3b-6b4caf6e0bec
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WFz0ESjOp7HIc3P5tG6j0K9hHQo5Ku3pcY-Od8fmXfs
+name: 'Organisation services'
+vid: organisation_services
+description: 'Types of services offered by the organisation'
+hierarchy: 0
+weight: 0

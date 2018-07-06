@@ -1,0 +1,25 @@
+uuid: 1b2b0357-0eca-4bd6-a919-b2e06a419489
+langcode: en
+status: true
+dependencies:
+  module:
+    - dynamic_entity_reference
+    - node
+    - taxonomy
+_core:
+  default_config_hash: U4Or24DZiyhWW5JRYW8KFP5y0YyV7PhyASLR4n9kAI4
+id: node.field_event_type
+field_name: field_event_type
+entity_type: node
+type: dynamic_entity_reference
+settings:
+  exclude_entity_types: false
+  entity_type_ids:
+    taxonomy_term: taxonomy_term
+module: dynamic_entity_reference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

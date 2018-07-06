@@ -1,0 +1,11 @@
+uuid: 21ed4155-f1ea-433c-8335-1235035a33d1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eYKuE6V-QWCPMrKdUCWz0vDEa7JfJ8X5YK1EJIZsMGM
+name: 'Event types'
+vid: event_types
+description: 'Types of Drupal events'
+hierarchy: 0
+weight: 0

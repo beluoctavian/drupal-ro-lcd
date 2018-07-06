@@ -1,0 +1,58 @@
+uuid: 647e00f8-b8cd-4424-8d68-524991cbdbd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_type
+    - node.type.event
+    - taxonomy.vocabulary.event_types
+  module:
+    - dynamic_entity_reference
+_core:
+  default_config_hash: UhDz7SbahkJ6SMCLmg-HNWgGC4uxySQL2hl_gDDySGU
+id: node.event.field_event_type
+field_name: field_event_type
+entity_type: node
+bundle: event
+label: 'Event type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  taxonomy_term:
+    handler: 'default:taxonomy_term'
+    handler_settings:
+      target_bundles:
+        event_types: event_types
+      sort:
+        field: name
+        direction: asc
+      auto_create: false
+      auto_create_bundle: ''
+  node:
+    handler: 'default:node'
+    handler_settings: {  }
+  file:
+    handler: 'default:file'
+    handler_settings: {  }
+  user:
+    handler: 'default:user'
+    handler_settings: {  }
+  comment:
+    handler: 'default:comment'
+    handler_settings: {  }
+  contact_message:
+    handler: 'default:contact_message'
+    handler_settings: {  }
+  block_content:
+    handler: 'default:block_content'
+    handler_settings: {  }
+  menu_link_content:
+    handler: 'default:menu_link_content'
+    handler_settings: {  }
+  shortcut:
+    handler: 'default:shortcut'
+    handler_settings: {  }
+field_type: dynamic_entity_reference

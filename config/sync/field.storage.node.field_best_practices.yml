@@ -1,0 +1,22 @@
+uuid: 9011984b-1a10-4cf2-8134-d4b43dbab5d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: TbvBobMdafFEa_6HbAw16fGhlFHATL7O5RcheeA2e8Q
+id: node.field_best_practices
+field_name: field_best_practices
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

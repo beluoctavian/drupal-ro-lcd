@@ -1,0 +1,46 @@
+uuid: 67f0c8c7-f5fd-4620-9043-5550fcb56057
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organisation.body
+    - field.field.node.organisation.field_best_practices
+    - field.field.node.organisation.field_organisation_address
+    - field.field.node.organisation.field_organisation_admins
+    - field.field.node.organisation.field_organisation_logo
+    - field.field.node.organisation.field_organisation_no_employees
+    - field.field.node.organisation.field_organisation_public_list
+    - field.field.node.organisation.field_organisation_services
+    - field.field.node.organisation.field_organisation_website
+    - node.type.organisation
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: UKa7ktxvTN3HZMiBNqjFMDRdo_Lx9TW9kO-144El3O4
+id: node.organisation.teaser
+targetEntityType: node
+bundle: organisation
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_best_practices: true
+  field_organisation_address: true
+  field_organisation_admins: true
+  field_organisation_logo: true
+  field_organisation_no_employees: true
+  field_organisation_public_list: true
+  field_organisation_services: true
+  field_organisation_website: true

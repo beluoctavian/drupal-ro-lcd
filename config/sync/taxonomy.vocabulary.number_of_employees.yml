@@ -1,0 +1,11 @@
+uuid: 9f3aad55-ead9-4316-a40f-ee4ae4ed53c4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QYGZCXA71c9cu3QlwsQ86OIOh5z9Zgf-CVYVSFcEwfU
+name: 'Number of employees'
+vid: number_of_employees
+description: 'Number of employees for an organisation'
+hierarchy: 0
+weight: 0

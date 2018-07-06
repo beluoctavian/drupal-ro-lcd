@@ -1,0 +1,22 @@
+uuid: facfa0ee-0110-4b38-aaa4-268b72a3a1fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: zcPyf0DhfeO0OwF4uCBcumc3ebQSWCRPyf0fJpS9qXI
+id: node.field_organisation_services
+field_name: field_organisation_services
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

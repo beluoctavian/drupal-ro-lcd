@@ -1,0 +1,13 @@
+uuid: 40f18157-9467-4551-8538-70292c5383ac
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5OoYP7ZyWS72p4oMVwmnLBf66YWuyP2wGz45nljfW94
+name: Event
+type: event
+description: 'Use <em>events</em> for community-related events like meetups, trainings, drupalcamps or drupalcons.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

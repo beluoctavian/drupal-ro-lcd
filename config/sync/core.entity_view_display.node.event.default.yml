@@ -1,0 +1,108 @@
+uuid: 3bf2d10e-4542-47c7-afbd-2e270511822f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_event_organizers
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_event_website
+    - node.type.event
+  module:
+    - datetime_range
+    - dynamic_entity_reference
+    - leaflet
+    - link
+    - text
+    - user
+_core:
+  default_config_hash: VqO01htDQlojEuN5opmVQAny--6WCno4hdjhYyE-d60
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    weight: 3
+    label: inline
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_event_location:
+    weight: 6
+    label: hidden
+    settings:
+      multiple_map: '0'
+      leaflet_map: 'OSM Mapnik'
+      height: '400'
+      map_position:
+        zoom: '12'
+        minZoom: '1'
+        maxZoom: '18'
+        force: 0
+      icon:
+        iconUrl: ''
+        shadowUrl: ''
+        iconSize:
+          x: ''
+          'y': ''
+        iconAnchor:
+          x: ''
+          'y': ''
+        shadowAnchor:
+          x: ''
+          'y': ''
+        popupAnchor:
+          x: ''
+          'y': ''
+      popup: 0
+    third_party_settings: {  }
+    type: leaflet_formatter_default
+    region: content
+  field_event_organizers:
+    weight: 5
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: dynamic_entity_reference_label
+    region: content
+  field_event_type:
+    weight: 2
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: dynamic_entity_reference_label
+    region: content
+  field_event_website:
+    weight: 4
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 92544b80-92b9-4805-a105-ca3bfae4a0e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_study_orgranisations
+    - node.type.case_study
+    - node.type.organisation
+_core:
+  default_config_hash: wybcIDVrZZ2QTBlX5w3C-MahVJzs0Tikunnk1K_J2A4
+id: node.case_study.field_case_study_orgranisations
+field_name: field_case_study_orgranisations
+entity_type: node
+bundle: case_study
+label: 'Orgranisations involved'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      organisation: organisation
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

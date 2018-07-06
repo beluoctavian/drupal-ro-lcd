@@ -1,0 +1,11 @@
+uuid: 62c66eb8-7471-4eae-a016-53e98e14fe58
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2vGAhnIN-RQTFpIm03FvBEu2vbDIcMweA96gO5SdCvE
+name: 'Organisation best practices'
+vid: organisation_best_practices
+description: 'A list of best practices an organisation is applying during the project development process'
+hierarchy: 0
+weight: 0

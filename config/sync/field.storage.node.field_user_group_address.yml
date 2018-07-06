@@ -1,0 +1,21 @@
+uuid: 866f5dac-0294-4c6a-9e27-a95c4910d1f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - node
+_core:
+  default_config_hash: HNI9y5-CrZ54004okGUHB-NNKt--uWS082tRH_nDSUo
+id: node.field_user_group_address
+field_name: field_user_group_address
+entity_type: node
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

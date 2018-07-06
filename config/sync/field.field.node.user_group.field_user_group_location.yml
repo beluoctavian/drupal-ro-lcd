@@ -1,0 +1,24 @@
+uuid: da365b99-9fec-4435-af21-0a4fb38282f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user_group_location
+    - node.type.user_group
+  module:
+    - geofield
+_core:
+  default_config_hash: qe76tIvpthG8XRYczRnFmaH1VjjJYi7TsrKj6A6RNn0
+id: node.user_group.field_user_group_location
+field_name: field_user_group_location
+entity_type: node
+bundle: user_group
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

@@ -1,0 +1,22 @@
+uuid: 7fb55459-1599-4d93-b168-e4deb9c50fb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+_core:
+  default_config_hash: Z3wcDvhx44w4Gw55bRtp3-2Kg3_D7iUm0gL0kfl6-pk
+id: node.field_organisation_admins
+field_name: field_organisation_admins
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

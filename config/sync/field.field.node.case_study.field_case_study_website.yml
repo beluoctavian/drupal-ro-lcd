@@ -1,0 +1,25 @@
+uuid: a7a6b164-2e6c-45f4-a1d6-c356cce1915f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_study_website
+    - node.type.case_study
+  module:
+    - link
+_core:
+  default_config_hash: FfZgXez_T82OmPapbiMZycLaTI_hwDXG28ZEnR_rHUg
+id: node.case_study.field_case_study_website
+field_name: field_case_study_website
+entity_type: node
+bundle: case_study
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

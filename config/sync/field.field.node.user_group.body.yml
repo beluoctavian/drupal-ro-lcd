@@ -1,0 +1,24 @@
+uuid: f675d635-8a1b-4a3e-8cc3-f32fccc327e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.user_group
+  module:
+    - text
+_core:
+  default_config_hash: FekjprpqgE3rFZoOEmGcmAq4B8f-JUY2XBN-8vshjZY
+id: node.user_group.body
+field_name: body
+entity_type: node
+bundle: user_group
+label: 'User group description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

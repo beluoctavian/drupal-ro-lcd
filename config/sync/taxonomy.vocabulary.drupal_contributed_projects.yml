@@ -1,0 +1,11 @@
+uuid: c38af62f-d8c5-42b6-892f-10671acf6bc7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: F7OvbLpwkPTCYRVtzxA9MPgDF4Ajwtnv3mx8uxH5pTY
+name: 'Drupal contributed projects'
+vid: drupal_contributed_projects
+description: Modules/Themes/Distributions
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 73eb1edf-fedc-491d-9be9-75387b7353f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: dQP96LS46T_BCiQYMfC1rm4Gvo6asxVJDY8h-iha4Bw
+id: node.field_case_study_key_projects
+field_name: field_case_study_key_projects
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

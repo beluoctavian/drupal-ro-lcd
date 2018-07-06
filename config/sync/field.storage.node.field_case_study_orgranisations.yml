@@ -1,0 +1,21 @@
+uuid: 5c14d541-df4e-40b8-a2e8-749b14107237
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 6sglz5Z6h6RAvt_04pT4f5zM431U69eiEczfAIe_oW0
+id: node.field_case_study_orgranisations
+field_name: field_case_study_orgranisations
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

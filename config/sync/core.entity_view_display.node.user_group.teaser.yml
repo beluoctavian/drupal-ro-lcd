@@ -1,0 +1,32 @@
+uuid: 6abad438-eda7-482f-964d-68618f6899f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.user_group.body
+    - field.field.node.user_group.field_user_group_address
+    - field.field.node.user_group.field_user_group_location
+    - field.field.node.user_group.field_user_group_organizers
+    - field.field.node.user_group.field_user_group_sponsors
+    - node.type.user_group
+  module:
+    - user
+_core:
+  default_config_hash: oqMpaNKpoXHXXrJ9t5a_8Q4jy5SIBEkzdlOhLY1X9wk
+id: node.user_group.teaser
+targetEntityType: node
+bundle: user_group
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  field_user_group_address: true
+  field_user_group_location: true
+  field_user_group_organizers: true
+  field_user_group_sponsors: true

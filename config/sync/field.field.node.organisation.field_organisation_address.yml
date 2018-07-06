@@ -1,0 +1,35 @@
+uuid: 344107e4-be2e-4e6c-a806-27fea4545bfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organisation_address
+    - node.type.organisation
+  module:
+    - address
+_core:
+  default_config_hash: zGmO-3oke6l5BcJNGHkotF2Jr8ierwPOOGJaRqqNQEI
+id: node.organisation.field_organisation_address
+field_name: field_organisation_address
+entity_type: node
+bundle: organisation
+label: Address
+description: 'Organisation''s primary contact address / office location '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+  fields: {  }
+field_type: address

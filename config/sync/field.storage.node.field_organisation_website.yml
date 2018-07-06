@@ -1,0 +1,21 @@
+uuid: ae41aab1-45c4-4ff1-870b-e89c64417e19
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: d_8JrfdcJhYeVQf2kRtulRLiuv922BKzh-lhorfXmXk
+id: node.field_organisation_website
+field_name: field_organisation_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

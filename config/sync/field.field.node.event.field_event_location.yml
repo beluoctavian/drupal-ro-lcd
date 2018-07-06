@@ -1,0 +1,24 @@
+uuid: b41d469d-4c21-4bc5-a603-388ee8f88e08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_location
+    - node.type.event
+  module:
+    - geofield
+_core:
+  default_config_hash: m4-fK4m3jqyYbRq8Ykr9HLq9NOpb3Epf20iPQto12GA
+id: node.event.field_event_location
+field_name: field_event_location
+entity_type: node
+bundle: event
+label: 'Event location'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield
