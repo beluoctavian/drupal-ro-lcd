@@ -63,4 +63,7 @@ settings:
   taxonomy_term:
     handler: 'default:taxonomy_term'
     handler_settings: {  }
+  content_moderation_state:
+    handler: 'default:content_moderation_state'
+    handler_settings: {  }
 field_type: dynamic_entity_reference

@@ -27,13 +27,13 @@ type_settings:
       default_revision: false
       weight: -5
     published:
-      label: Published
+      label: Publicat
       published: true
       default_revision: true
       weight: 0
   transitions:
     archive:
-      label: Archive
+      label: Arhivă
       from:
         - published
       to: archived
